@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 210px;
+    /* height: 210px; */
 }
 
 .tm-site-name-container {
