@@ -36,6 +36,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
+  background-color: #c7cedf;
 }
 
 h2 { font-size: 1.5rem; }
@@ -203,7 +204,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 
 .tm-btn:hover {
   color: white;
-  background-color: #875959;
+  background-color: ##007a79;
 }
 
 .tm-social-row { padding: 70px; }
