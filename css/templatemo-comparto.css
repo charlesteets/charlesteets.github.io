@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-nav-item.current .tm-nav-link,
 .tm-nav-link:hover {
   color: white;
-  background-color: #CC9999;
+  background-color: #007a79;
 }
 
 @media (max-width: 1033px) {
