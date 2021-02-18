@@ -198,13 +198,13 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
   padding: 15px 40px;
   font-size: 1.1rem;
   border: none;
-  background-color: #CC9999;
+  background-color: #007a79;
   color: white;
 }
 
 .tm-btn:hover {
   color: white;
-  background-color: ##007a79;
+  background-color: #002a29;
 }
 
 .tm-social-row { padding: 70px; }
