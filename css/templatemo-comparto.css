@@ -60,12 +60,12 @@ a {
 a:hover { text-decoration: none; }
 button:focus { outline: none; }
 p { 
-  color: #666;
+  
   line-height: 1.7; 
   margin-bottom: 35px;
 }
 
-h1, h2, h3, h4, h5, h6 { color: #333; }
+h1, h2, p, h3, h4, h5, h6 { color: white; }
 
 .container-fluid {
     max-width: 1210px;
