@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-nav-item.current .tm-nav-link,
 .tm-nav-link:hover {
   color: white;
-  background-color: #007a79;
+  background-color: #78b0cb;
 }
 
 @media (max-width: 1033px) {
@@ -199,13 +199,13 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
   padding: 15px 40px;
   font-size: 1.1rem;
   border: none;
-  background-color: #feb997;
+  background-color: #87c6e4;
   color: white;
 }
 
 .tm-btn:hover {
   color: white;
-  background-color: #002a29;
+  background-color: #78b0cb;
 }
 
 .tm-social-row { padding: 70px; }
