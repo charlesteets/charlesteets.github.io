@@ -1,15 +1,21 @@
 /* main color palette */
 
-.tm-bg-color-1 { background-color: #007b7e; }
+
 h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
 .tm-icon-inner > a > * { color: #d1ffc9; }
-.tm-gallery-outer { background-color: #55e383; }
+a { color: #d1ffc9; }
 
 .tm-nav-item.current .tm-nav-link,
 .tm-nav-link:hover .tm-btn{
   color: #d1ffc9;
   background-color: #07b089;
 }
+
+.tm-bg-color-1 { background-color: #007b7e; }
+
+.tm-gallery-outer { background-color: #004a5a; }
+
+
 
 
 
@@ -552,7 +558,7 @@ figure.effect-bubba:hover p {
   display: block;
 }
 
-a { color: white; }
+
 a:hover { color: gray; }
 button:hover { cursor: pointer; }
 
