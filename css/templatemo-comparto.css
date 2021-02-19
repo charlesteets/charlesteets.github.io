@@ -37,6 +37,7 @@ body {
   padding-right: 15px;
   margin: 0;
   background-color: #c7cedf;
+  background-image: ./codeimg.png;
 }
 
 h2 { font-size: 1.5rem; }
