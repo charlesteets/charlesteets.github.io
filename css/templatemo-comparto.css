@@ -1,5 +1,7 @@
 /* main color palette */
 
+figure.effect-bubba { background: #55e383; }
+figure.effect-bubba p { color: black; }
 
 h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
 .tm-icon-inner > a > * { color: #d1ffc9; }
@@ -393,7 +395,7 @@ padding: 15px 0px 15px 0px;
 /***** Bubba *****/
 /*---------------*/
 
-figure.effect-bubba { background: #97DCFE; }
+
 
 figure.effect-bubba img {
   opacity: 1;
@@ -441,7 +443,6 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
-  color: white;
   width: 100%;
   padding: 10px;
   opacity: 0;
