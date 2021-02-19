@@ -23,7 +23,7 @@ h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
 .aboutmesection {
  text-align:center;
  width: 100%;
- padding: 15px 15px 15px 40px;
+ padding: 15px 15px 40px 15px;
 }
 
 div {
