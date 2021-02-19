@@ -400,7 +400,7 @@ padding: 15px 0px 15px 0px;
 /***** Bubba *****/
 /*---------------*/
 
-figure.effect-bubba { background: #9e5406; }
+figure.effect-bubba { background: #97DCFE; }
 
 figure.effect-bubba img {
   opacity: 1;
@@ -413,7 +413,7 @@ figure.effect-bubba:hover img { opacity: 0.4; }
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
   position: absolute;
-  top: 15px;
+  top: 5px;
   right: 15px;
   bottom: 15px;
   left: 15px;
@@ -439,7 +439,7 @@ figure.effect-bubba figcaption::after {
 
 figure.effect-bubba h2 {
   font-size: 1.5rem;
-  padding-top: 20%;
+  padding-top: 10%;
   opacity: 0;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -565,8 +565,8 @@ figure.effect-bubba:hover p {
   display: block;
 }
 
-a { color: #666; }
-a:hover { color: #CC9999; }
+a { color: white; }
+a:hover { color: gray; }
 button:hover { cursor: pointer; }
 
 .tm-social-link {
