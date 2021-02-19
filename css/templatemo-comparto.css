@@ -2,9 +2,11 @@
 
 .tm-bg-color-1 { background-color: #007b7e; }
 h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
+.tm-icon-inner > a > * { color: #d1ffc9; }
+.tm-gallery-outer { background-color: #55e383; }
 
 .tm-nav-item.current .tm-nav-link,
-.tm-nav-link:hover {
+.tm-nav-link:hover .tm-btn{
   color: #d1ffc9;
   background-color: #07b089;
 }
@@ -199,8 +201,6 @@ padding: 15px 0px 15px 0px;
   padding: 15px 40px;
   font-size: 1.1rem;
   border: none;
-  background-color: #5a8498;
-  color: white;
 }
 
 .tm-btn:hover {
@@ -218,7 +218,7 @@ padding: 15px 0px 15px 0px;
   text-align: center;
 }
 
-.tm-icon-inner > a > * { color: white; }
+
 .tm-icon-inner h3 { line-height: 1.7; }
 
 .tm-section-2-l {
@@ -285,7 +285,6 @@ padding: 15px 0px 15px 0px;
 .tm-gallery-outer {
   margin-left: -10px;
   margin-right: -10px;
-  background-color: white;
 }
 
 .tm-gallery {
