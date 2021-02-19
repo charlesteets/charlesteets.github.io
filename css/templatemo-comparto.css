@@ -1,3 +1,16 @@
+/* main color palette */
+
+.tm-bg-color-1 { background-color: #007b7e; }
+h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
+
+.tm-nav-item.current .tm-nav-link,
+.tm-nav-link:hover {
+  color: #d1ffc9;
+  background-color: #07b089;
+}
+
+
+
 *,
 *::before,
 *::after {
@@ -7,7 +20,6 @@
 
 .aboutmesection {
  text-align:center;
- color: white;
  width: 100%;
  padding: 15px 15px 15px 40px;
 }
@@ -46,7 +58,6 @@ p {
   margin-bottom: 35px;
 }
 
-h1, h2, p, h3, h4, h5, h6 { color: white; }
 
 .container-fluid {
     max-width: 1210px;
@@ -61,7 +72,7 @@ h1, h2, p, h3, h4, h5, h6 { color: white; }
 padding: 15px 0px 15px 0px;
 }
 .tm-mb-4 { margin-bottom: 30px; }
-.tm-bg-color-1 { background-color: #55e383; }
+
 .tm-bg-color-2 { background-color: #CC9999; }
 .tm-bg-color-3 { background-color: #666666; }
 .tm-bg-color-4 { background-color: #99CCFF; }
@@ -155,11 +166,7 @@ padding: 15px 0px 15px 0px;
   font-size: 1.2rem;
 }
 
-.tm-nav-item.current .tm-nav-link,
-.tm-nav-link:hover {
-  color: white;
-  background-color: #78b0cb;
-}
+
 
 @media (max-width: 1033px) {
   .tm-nav-item {
