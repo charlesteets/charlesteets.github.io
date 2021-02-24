@@ -93,7 +93,7 @@
                             <figcaption>
                                 <h2>Bible Study Challenge</h2>
                                 <p>A game made with C#, Unity, and JSON.</p>
-                                <a href="javascript:displayProjectDetails(\"bible\")">Full Site</a>
+                                <a href="javascript:displayProjectDetails('bible')">Full Site</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -103,7 +103,7 @@
                             <figcaption>
                                 <h2>Important File Tracker</h2>
                                 <p>Project 2 description. Lorem ipsum yadda yadda</p>
-                                <a href="javascript:displayProjectDetails(\"importantfiletracker\")">View more</a>
+                                <a href="javascript:displayProjectDetails('importantfiletracker')">View more</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -240,10 +240,10 @@
         });
         
         func displayProjectDetails(projectName) {
-         if(projectName = bible) {
+         if(projectName = 'bible') {
             document.getElementById("projectDetails").innerHTML = "bible test";
          }
-         if(projectName = importantfiletracker) {
+         if(projectName = 'importantfiletracker') {
             document.getElementById("projectDetails").innerHTML = "ift test";
          }
         }
