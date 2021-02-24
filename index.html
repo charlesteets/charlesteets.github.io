@@ -85,8 +85,8 @@
             <div class="tm-gallery-header">
                 <h2 class="tm-mb-1 tm-gallery-filter">Projects</h2>
             </div>
+            <div id="projectDetails" class="tm-gallery-header"></div>
             <div class="tm-gallery-outer">
-                <div id="projectDetails"></div>
                 <div class="tm-gallery" id="tm-gallery">
                     <div class="tm-gallery-item nature">
                         <figure class="effect-bubba">
@@ -94,16 +94,16 @@
                             <figcaption>
                                 <h2>Bible Study Challenge</h2>
                                 <p>A game made with C#, Unity, and JSON.</p>
-                                <a href="javascript:displayProjectDetails('bible')">Full Site</a>
+                                <a href="javascript:displayProjectDetails('bible')">View more</a>
                             </figcaption>
                         </figure>
                     </div>
                     <div class="tm-gallery-item animals">
                         <figure class="effect-bubba">
-                            <img src="PROJECT2PLACEHOLDER****************.jpg" alt="Gallery item" class="tm-img-responsive" />
+                            <img src="css/ift.png" alt="Important File Tracker" class="tm-img-responsive" />
                             <figcaption>
                                 <h2>Important File Tracker</h2>
-                                <p>Project 2 description. Lorem ipsum yadda yadda</p>
+                                <p>Important File Tracker</p>
                                 <a href="javascript:displayProjectDetails('importantfiletracker')">View more</a>
                             </figcaption>
                         </figure>
@@ -245,7 +245,7 @@
             document.getElementById("projectDetails").innerHTML = "The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a> or check out the devlog <a href=\"brokenlink.com\">here</a>.";
          }
          else if(projectName == 'importantfiletracker') {
-            document.getElementById("projectDetails").innerHTML = "ift test";
+            document.getElementById("projectDetails").innerHTML = "The Important File Tracker is an app I built using .NET, C#, WPF, and JSON. Its main purpose is to bookmark important files on your computer for quick and easy access, allow you to make notes about them, and back them up. Check out the full app <a href=\"https://github.com/charlesteets/ImportantFileTracker\">here</a> or check out the devlog <a href=\"brokenlink.com\">here</a>.";
          }
         }
     </script>
