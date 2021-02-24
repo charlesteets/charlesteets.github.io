@@ -93,7 +93,7 @@
                             <figcaption>
                                 <h2>Bible Study Challenge</h2>
                                 <p>A game made with C#, Unity, and JSON.</p>
-                                <a href="https://simmer.io/@charlesteets/the-bible-study-challenge">Full Site</a>
+                                <a href="javascript:displayProjectDetails(\"bible\")">Full Site</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -101,15 +101,16 @@
                         <figure class="effect-bubba">
                             <img src="PROJECT2PLACEHOLDER****************.jpg" alt="Gallery item" class="tm-img-responsive" />
                             <figcaption>
-                                <h2>Project 2</h2>
+                                <h2>Important File Tracker</h2>
                                 <p>Project 2 description. Lorem ipsum yadda yadda</p>
-                                <a href="#">View more</a>
+                                <a href="javascript:displayProjectDetails(\"importantfiletracker\")">View more</a>
                             </figcaption>
                         </figure>
                     </div>
                   
                 </div>
             </div>
+            <div id="projectDetails" />
         </section> <!-- Gallery -->
         <section id="contact" class="aboutmesection tm-bg-color-1">
             <h2 class="tm-contact-title">Contact</h2>
@@ -238,6 +239,15 @@
                 $this.addClass("active");
             });
         });
+        
+        func displayProjectDetails(projectName) {
+         if(projectName = bible) {
+            document.getElementById("projectDetails").innerHTML = "bible test";
+         }
+         if(projectName = importantfiletracker) {
+            document.getElementById("projectDetails").innerHTML = "ift test";
+         }
+        }
     </script>
 </body>
 </html>
