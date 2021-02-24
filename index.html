@@ -85,7 +85,8 @@
             <div class="tm-gallery-header">
                 <h2 class="tm-mb-1 tm-gallery-filter">Projects</h2>
             </div>
-            <div class="tm-gallery-outer" id="projectDetails">
+            <div class="tm-gallery-outer">
+                <div id="projectDetails" />
                 <div class="tm-gallery" id="tm-gallery">
                     <div class="tm-gallery-item nature">
                         <figure class="effect-bubba">
@@ -243,7 +244,7 @@
          if(projectName = 'bible') {
             document.getElementById("projectDetails").innerHTML = "bible test";
          }
-         if(projectName = 'importantfiletracker') {
+         else if(projectName = 'importantfiletracker') {
             document.getElementById("projectDetails").innerHTML = "ift test";
          }
         }
