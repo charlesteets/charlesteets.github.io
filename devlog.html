@@ -17,6 +17,15 @@
     <a id="button"><i class="fas fa-angle-up fa-2x"></i></a>
   
 <script type="text/JavaScript">  
+    function displayProjectDetails(projectName) {
+         if(projectName == 'bible') {
+            document.getElementById("projectDetails").innerHTML = "The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a> or check out the devlog <a href=\"devlog.html?project=bible\">here</a>.";
+         }
+         else if(projectName == 'importantfiletracker') {
+            document.getElementById("projectDetails").innerHTML = "The Important File Tracker is an app I built using .NET, C#, WPF, and JSON. Its main purpose is to bookmark important files on your computer for quick and easy access, allow you to make notes about them, and back them up. Check out the full app <a href=\"https://github.com/charlesteets/ImportantFileTracker\">here</a> or check out the devlog <a href=\"devlog.html?project=ift\">here</a>.";
+         }
+        }
+    
      displayProjectDetails(window.location.href.split("?project=")[1]);
 </script>
 
@@ -211,14 +220,7 @@
             });
         });
         
-        function displayProjectDetails(projectName) {
-         if(projectName == 'bible') {
-            document.getElementById("projectDetails").innerHTML = "The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a> or check out the devlog <a href=\"devlog.html?project=bible\">here</a>.";
-         }
-         else if(projectName == 'importantfiletracker') {
-            document.getElementById("projectDetails").innerHTML = "The Important File Tracker is an app I built using .NET, C#, WPF, and JSON. Its main purpose is to bookmark important files on your computer for quick and easy access, allow you to make notes about them, and back them up. Check out the full app <a href=\"https://github.com/charlesteets/ImportantFileTracker\">here</a> or check out the devlog <a href=\"devlog.html?project=ift\">here</a>.";
-         }
-        }
+        
     </script>
 </body>
 </html>
