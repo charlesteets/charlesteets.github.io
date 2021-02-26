@@ -52,7 +52,7 @@ padding: 15px 0px 15px 0px;
 
 @media (max-width: 600px) {
   .tm-nav-item { margin: 10px; }
-  .tm-nav-item:last-child { margin-right: 10px; }
+  
 
   .tm-nav ul {
     display: flex;
@@ -594,12 +594,6 @@ p {
   margin-right: 15px;
   background-color: white;
 }
-
-.tm-nav-item:last-child {
-  margin-right: 0;
-}
-
-
 
 .container-fluid {
     max-width: 1210px;
