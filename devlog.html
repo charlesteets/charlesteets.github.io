@@ -16,11 +16,10 @@
     <!-- Back to top button -->
     <a id="button"><i class="fas fa-angle-up fa-2x"></i></a>
   
-  <?php
-$id = $_GET['project'];
-echo '<script type="text/JavaScript">  
-     displayProjectDetails(' + $id + ');</script>'; 
-?>
+<script type="text/JavaScript">  
+     displayProjectDetails(window.location.href.split("?project=")[1]);
+</script>
+
   
   
     <div class="container-fluid">
