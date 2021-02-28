@@ -19,7 +19,32 @@
 <script type="text/JavaScript">  
     function displayProjectDetails(projectName) {
          if(projectName == 'bible') {
-            document.getElementById("projectDetails").innerHTML = "The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a> or check out the devlog <a href=\"devlog.html?project=bible\">here</a>.";
+            document.getElementById("projectDetails").innerHTML = 
+                //Bible Full Devlog
+                "
+             Important File Tracker
+Technologies used: .NET, C#, WPF, JSON
+
+Core uses
+Bookmark local files for quick access
+Make and save notes about files
+Backup files to another location
+
+Stretch goals / possible future expansions
+Make collections of related files for quick and easy locating
+Allow the adding of nicknames for quick understanding of the files’ purposes
+Link with google drive, onedrive, or dropbox, etc
+Zip/compress backups
+Share files via email
+Add important online resources to collections (via URL)
+
+Key Data
+Collection
+Files
+Notes
+Serialized save
+
+             ";
          }
          else if(projectName == 'importantfiletracker') {
             document.getElementById("projectDetails").innerHTML = "The Important File Tracker is an app I built using .NET, C#, WPF, and JSON. Its main purpose is to bookmark important files on your computer for quick and easy access, allow you to make notes about them, and back them up. Check out the full app <a href=\"https://github.com/charlesteets/ImportantFileTracker\">here</a> or check out the devlog <a href=\"devlog.html?project=ift\">here</a>.";
@@ -65,7 +90,9 @@
             <div class="tm-gallery-header">
                 <h2 class="tm-mb-1 tm-gallery-filter">Projects</h2>
             </div>
-            <div id="projectDetails" class="tm-gallery-header"></div>
+            <div id="projectDetails" class="aboutmesection" style="transition: all .5s linear;">
+                <p>Click on a project below to learn more!</p>
+            </div>
             <div class="tm-gallery-outer">
                 <div class="tm-gallery" id="tm-gallery">
                     <div class="tm-gallery-item nature">
@@ -74,7 +101,7 @@
                             <figcaption>
                                 <h2>Bible Study Challenge</h2>
                                 <p>A game made with C#, Unity, and JSON.</p>
-                                <a href="javascript:displayProjectDetails('bible')">View more</a>
+                                <a href="#projects"  onclick="displayProjectDetails('bible')">View more</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -84,14 +111,14 @@
                             <figcaption>
                                 <h2>Important File Tracker</h2>
                                 <p>A Windows application made with C#, WPF, and JSON.</p>
-                                <a href="javascript:displayProjectDetails('importantfiletracker')">View more</a>
+                                <a href="#projects" onclick="displayProjectDetails('importantfiletracker')">View more</a>
                             </figcaption>
                         </figure>
                     </div>
                   
                 </div>
             </div>
-        </section> <!-- Gallery -->
+        </section>
         
         <script> displayProjectDetails(window.location.href.split("?project=")[1]); </script>
         <section id="contact" class="aboutmesection tm-bg-color-1">
