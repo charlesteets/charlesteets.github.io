@@ -20,18 +20,19 @@
             <div class="aboutmesection">
                 <nav class="tm-nav" id="tm-nav">
                     <ul>
-                        <li class="tm-nav-item current">
-                            <a href="#about" class="tm-nav-link">
-                                <span>About</span>
-                            </a>
-                        </li>
                         <li class="tm-nav-item">
                             <a href="#projects" class="tm-nav-link">
                                 <span>Projects</span>
                             </a>
                         </li>
+<!--                        <li class="tm-nav-item current">
+                            <a href="#about" class="tm-nav-link">
+                                <span>About</span>
+                            </a>
+                        </li>
+-->
                         <li class="tm-nav-item">
-                            <a href="#devlog" class="tm-nav-link">
+                            <a href="devlog.html" class="tm-nav-link">
                                 <span>Dev Log</span>
                             </a>
                         </li>
@@ -44,16 +45,43 @@
                 </nav>
             </div>
         </div>
-        <section class="tm-mb-1" id="about">
-            <div class="tm-row tm-about-row tm-bg-color-1">
-                <div class="aboutmesection">
-                    <h2 class="tm-mb-2 tm-title-color">Hello! I am Charles Teets - your next Jr. Developer</h2>
-                    <p>I'm an entrepreneur and a lover of tech, looking for a full-time coding position at a US-based company.
-                    </p>
+        
+        <section class="tm-bg-color-1 tm-mb-1 tm-gallery-section" id="projects">
+            <div class="tm-gallery-header">
+                <h2 class="tm-mb-1 tm-gallery-filter">Projects</h2>
+            </div>
+            <div id="projectDetails" class="tm-gallery-header">
+                <p>Click on a project below to learn more!</p>
+            </div>
+            <div class="tm-gallery-outer">
+                <div class="tm-gallery" id="tm-gallery">
+                    <div class="tm-gallery-item nature">
+                        <figure class="effect-bubba">
+                            <img src="css/biblestudysplash.png" alt="Bible Quiz" class="tm-img-responsive" />
+                            <figcaption>
+                                <h2>Bible Study Challenge</h2>
+                                <p>A game made with C#, Unity, and JSON.</p>
+                                <a href="javascript:displayProjectDetails('bible')">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="tm-gallery-item animals">
+                        <figure class="effect-bubba">
+                            <img src="css/ift.png" alt="Important File Tracker" class="tm-img-responsive" />
+                            <figcaption>
+                                <h2>Important File Tracker</h2>
+                                <p>A Windows application made with C#, WPF, and JSON.</p>
+                                <a href="javascript:displayProjectDetails('importantfiletracker')">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                  
                 </div>
             </div>
         </section>
-        <section id="devlog">
+        
+        
+        <section id="about">
         <div class="tm-bg-color-1 tm-mb-1 tm-row tm-social-row">
             <div class="tm-icon">
                 <div class="tm-icon-inner">
@@ -81,41 +109,14 @@
             </div>
         </div>
         </section>
-        <section class="tm-bg-color-1 tm-mb-1 tm-gallery-section" id="projects">
-            <div class="tm-gallery-header">
-                <h2 class="tm-mb-1 tm-gallery-filter">Projects</h2>
-            </div>
-            <div id="projectDetails" class="tm-gallery-header"></div>
-            <div class="tm-gallery-outer">
-                <div class="tm-gallery" id="tm-gallery">
-                    <div class="tm-gallery-item nature">
-                        <figure class="effect-bubba">
-                            <img src="css/biblestudysplash.png" alt="Bible Quiz" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Bible Study Challenge</h2>
-                                <p>A game made with C#, Unity, and JSON.</p>
-                                <a href="javascript:displayProjectDetails('bible')">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="tm-gallery-item animals">
-                        <figure class="effect-bubba">
-                            <img src="css/ift.png" alt="Important File Tracker" class="tm-img-responsive" />
-                            <figcaption>
-                                <h2>Important File Tracker</h2>
-                                <p>A Windows application made with C#, WPF, and JSON.</p>
-                                <a href="javascript:displayProjectDetails('importantfiletracker')">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                  
-                </div>
-            </div>
-        </section> <!-- Gallery -->
+        
+        
         <section id="contact" class="aboutmesection tm-bg-color-1">
             <h2 class="tm-contact-title">Contact</h2>
             
                 <div style="padding: 15px;">
+                        <h2 class="tm-mb-2 tm-title-color">My name is Charles Teets - your next .NET Developer</h2>
+                        <p>I'm an entrepreneur and a lover of tech, looking for a full-time coding position at a US-based company.
                         <p>I would love the opportunity to learn more about your company and whether we would be a good fit for each other.
                         <br>Please feel free to give me a call or email at your convenience.</p>
                         <p class="tm-mb-0"><a href="tel:8042956812">
