@@ -50,7 +50,7 @@
             <div class="tm-gallery-header">
                 <h2 class="tm-mb-1 tm-gallery-filter">Projects</h2>
             </div>
-            <div id="projectDetails" class="tm-gallery-header">
+            <div id="projectDetails" class="aboutmesection">
                 <p>Click on a project below to learn more!</p>
             </div>
             <div class="tm-gallery-outer">
@@ -112,10 +112,10 @@
         
         
         <section id="contact" class="aboutmesection tm-bg-color-1">
-            <h2 class="tm-contact-title">Contact</h2>
+            <h2 class="tm-mb-2 tm-title-color">My name is Charles Teets - your next .NET Developer</h2>
             
                 <div style="padding: 15px;">
-                        <h2 class="tm-mb-2 tm-title-color">My name is Charles Teets - your next .NET Developer</h2>
+                        
                         <p>I'm an entrepreneur and a lover of tech, looking for a full-time coding position at a US-based company.
                         <p>I would love the opportunity to learn more about your company and whether we would be a good fit for each other.
                         <br>Please feel free to give me a call or email at your convenience.</p>
@@ -243,10 +243,10 @@
         
         function displayProjectDetails(projectName) {
          if(projectName == 'bible') {
-            document.getElementById("projectDetails").innerHTML = "The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a> or check out the devlog <a href=\"devlog.html?project=bible\">here</a>.";
+            document.getElementById("projectDetails").innerHTML = "<p>The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a> or check out the devlog <a href=\"devlog.html?project=bible\">here</a>.</p>";
          }
          else if(projectName == 'importantfiletracker') {
-            document.getElementById("projectDetails").innerHTML = "The Important File Tracker is an app I built using .NET, C#, WPF, and JSON. Its main purpose is to bookmark important files on your computer for quick and easy access, allow you to make notes about them, and back them up. Check out the full app <a href=\"https://github.com/charlesteets/ImportantFileTracker\">here</a> or check out the devlog <a href=\"devlog.html?project=importantfiletracker\">here</a>.";
+            document.getElementById("projectDetails").innerHTML = "<p>The Important File Tracker is an app I built using .NET, C#, WPF, and JSON. Its main purpose is to bookmark important files on your computer for quick and easy access, allow you to make notes about them, and back them up. Check out the full app <a href=\"https://github.com/charlesteets/ImportantFileTracker\">here</a> or check out the devlog <a href=\"devlog.html?project=importantfiletracker\">here</a>.</p>";
          }
         }
     </script>
