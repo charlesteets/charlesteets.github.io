@@ -91,9 +91,19 @@
         
         function displayProjectDetails(projectName) {
          if(projectName == 'bible') {
-            document.getElementById("projectDetails").innerHTML = "<p>The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a> or check out the devlog <a href=\"https://charlesteetsdevlog.blogspot.com/search/label/BibleStudy\">here</a>.</p>";
+            document.getElementById("projectDetails").innerHTML = "<p>The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a>.</p>";
          }
          else if(projectName == 'importantfiletracker') {
             document.getElementById("projectDetails").innerHTML = "<p>The Important File Tracker is an app I built using .NET, C#, WPF, and JSON. Its main purpose is to bookmark important files on your computer for quick and easy access, allow you to make notes about them, and back them up. Check out the full app <a href=\"https://github.com/charlesteets/ImportantFileTracker\">here</a> or check out the devlog <a href=\"https://charlesteetsdevlog.blogspot.com/search/label/ImportantFileTracker\">here</a>.</p>";
          }
+          else if(projectName == 'hostsfileeditor') {
+            document.getElementById("projectDetails").innerHTML = "<p>The Hosts File Editor is a console app I built using .NET and C#. It gives a user interface for modifying the Hosts file's DNS forwarding on a Windows computer. Check out the full app <a href=\"https://github.com/charlesteets/HostsFileEditor\">here</a> or check out the devlog <a href=\"https://charlesteetsdevlog.blogspot.com/search/label/HostsFileEditor\">here</a>.</p>";
+         }
+          else if(projectName == 'kkppsite') {
+            document.getElementById("projectDetails").innerHTML = "<p>The Knick Knack Prep & Pack homepage is a website I built using HTML, CSS, PHP, JavaScript, and MySQL. It shows off examples of my company's previous work and reviews from past customers. It also allows clients to make reservations online which send all the details to our email and saves them in a MySQL database. Check out the full site <a href=\"https://www.kkprepandpack.com\">here</a>.</p>";
+         }
+           else if(projectName == 'tgssite') {
+            document.getElementById("projectDetails").innerHTML = "<p>The Team Gang Squad homepage is a website I built for a music collective based in Charlotte, NC using HTML, CSS, and JavaScript. It contains many embedded widgets to stream music from the artists, biographies, and links to their social media, along with a section for merchandise. Check out the full site <a href=\"http://www.teamgangsquad.com\">here</a>.</p>";
+         }
+
         }
