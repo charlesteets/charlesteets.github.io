@@ -7,19 +7,18 @@ animation: bounceIn 1.3s;
 @keyframes bounceIn {
   0% {
     opacity: 0;
-    font-size: 1em;
+    margin: -10px;
   }
   40% {
     opacity: 1; 
     }
   65% {
-    font-size: 1.2em;
+    margin: 10px;
   }
   100% {
-    font-size: 1em;
+    margin: 0px;
   }
 }
-
 
 
 /* main color palette */
