@@ -106,7 +106,7 @@ if (!isMobile) {
         function displayProjectDetails(projectName) {
           
           document.getElementById("projectDetails").classList.add('fadeInAnim');
-          setTimeout(function() {document.getElementById("projectDetails").classList.remove('fadeInAnim');}, 1300)
+          setTimeout(function() {document.getElementById("projectDetails").classList.remove('fadeInAnim');}, 1900)
           
          if(projectName == 'bible') {
             document.getElementById("projectDetails").innerHTML = "<p>The Bible Study Challenge is an app I built using .NET, C#, Unity, and JSON. It has two modes, one where you can read the Bible verse-by-verse and another where a random verse is shown and you must guess which verse, chapter, and book it is from. Check out the full app <a href=\"https://simmer.io/@charlesteets/the-bible-study-challenge\">here</a>.</p>";
