@@ -1,22 +1,22 @@
 /* fade in anim for project details */
 
 .fadeInAnim {
-animation: bounceIn 1.3s;
+animation: bounceIn 1.9s ease-in-out;
 }
 
 @keyframes bounceIn {
   0% {
     opacity: 0;
-    margin: -10px;
+    transform: scale(.8);
   }
   40% {
     opacity: 1; 
     }
   65% {
-    margin: 10px;
+    transform: scale(1.2);
   }
   100% {
-    margin: 0px;
+    transform: scale(1);
   }
 }
 
@@ -28,7 +28,7 @@ figure.effect-bubba p { color: black; }
 
 h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
 .tm-icon-inner > a > * { color: #d1ffc9; }
-a { color: #55e383; 
+a { color: darkblue; 
     font-weight: bold;     
 }
 
