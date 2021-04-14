@@ -119,7 +119,6 @@ function checkVisible(elm) {
           setTimeout(function() {projDeets.classList.remove('fadeInAnim');}, 1900)
 
          if(!checkVisible(projDeets)){
-             console.log("projdeets invisible");
                //attempting to do smooth scroll
               var target = $("#projectDetailsContainer");
               $('html, body').animate({
@@ -136,9 +135,6 @@ function checkVisible(elm) {
                       $target.focus(); // Set focus again
                   };
               });
-         }
-         else {
-          console.log("projdeets visible");
          }
                   
          if(projectName == 'bible') {
