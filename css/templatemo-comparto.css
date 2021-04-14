@@ -12,6 +12,7 @@ animation: bounceIn 1.9s ease-in-out;
   40% {
     opacity: 1; 
     transform: scale(1.05);
+  }
   100% {
     transform: scale(1);
   }
