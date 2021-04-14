@@ -201,7 +201,7 @@ padding: 15px 0px 15px 0px;
   float: left;
   overflow: hidden;
   margin-bottom: 0;
-  background: #3085a3;
+  background: #004a5a;
   text-align: center;
   cursor: pointer;
 }
@@ -211,7 +211,7 @@ padding: 15px 0px 15px 0px;
   display: block;
   min-height: 100%;
   max-width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .tm-gallery-item figure figcaption {
@@ -279,7 +279,7 @@ figure.effect-bubba img {
   transition: opacity 0.35s;
 }
 
-figure.effect-bubba:hover img { opacity: 0.4; }
+figure.effect-bubba:hover img { opacity: 0.8; }
 
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
