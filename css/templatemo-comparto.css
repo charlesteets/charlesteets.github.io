@@ -233,7 +233,7 @@ padding: 15px 0px 15px 0px;
   display: block;
   min-height: 100%;
   max-width: 100%;
-  opacity: 1; /*CHANGED THIS*/
+  opacity: 0; /*CHANGED THIS*/
 }
 
 .tm-gallery-item figure figcaption {
