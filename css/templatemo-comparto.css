@@ -5,7 +5,9 @@ figure.effect-bubba p { color: black; }
 
 h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
 .tm-icon-inner > a > * { color: #d1ffc9; }
-a { color: #004a5a; }
+a { color: #55e383; 
+    text-decoration: underline;     
+}
 
 .tm-nav-item.current .tm-nav-link,
 .tm-nav-link:hover .tm-btn{
