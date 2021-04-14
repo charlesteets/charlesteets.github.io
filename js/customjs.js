@@ -121,7 +121,7 @@ function checkVisible(elm) {
          if(!checkVisible(projDeets)){
              console.log("projdeets invisible");
                //attempting to do smooth scroll
-              var target = $("#projectDetails");
+              var target = $("#projectDetailsContainer");
               $('html, body').animate({
                   scrollTop: target.offset().top
               }, 600, function () {
