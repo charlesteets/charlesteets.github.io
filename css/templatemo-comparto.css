@@ -234,7 +234,7 @@ padding: 15px 0px 15px 0px;
   display: block;
   min-height: 100%;
   max-width: 100%;
-  opacity: 0; /*CHANGED THIS*/
+  opacity: .8; 
 }
 
 .tm-gallery-item figure figcaption {
@@ -267,7 +267,7 @@ padding: 15px 0px 15px 0px;
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
-  opacity: 0;
+  opacity: .9; /*CHANGED THIS from 0*/
 }
 
 .tm-gallery-item figure h2 {
