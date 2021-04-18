@@ -22,7 +22,7 @@ animation: bounceIn 1.9s ease-in-out;
 /* main color palette */
 
 figure.effect-bubba { background: #55e383; }
-figure.effect-bubba p { color: black; }
+figure.effect-bubba p { color: #d1ffc9; }
 
 h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
 .tm-icon-inner > a > * { color: #d1ffc9; }
@@ -270,9 +270,9 @@ padding: 15px 0px 15px 0px;
 }
 
 .tm-gallery-item figure h2 {
-  word-spacing: -0.15em;
+   /* removed word-spacing: -0.15em; */
   font-weight: 300;
-  color: white;
+  color: #55e383;
 }
 
 .tm-gallery-item figure h2 span {
