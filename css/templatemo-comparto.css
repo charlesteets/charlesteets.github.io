@@ -26,8 +26,7 @@ figure.effect-bubba p { color: black; }
 
 h1, h2, p, h3, h4, h5, h6 { color: #d1ffc9; }
 .tm-icon-inner > a > * { color: #d1ffc9; }
-a { color: #55e383; 
-    font-weight: bold;     
+a { color: #55e383;    
 }
 
 .tm-nav-item.current .tm-nav-link,
@@ -267,7 +266,7 @@ padding: 15px 0px 15px 0px;
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
-  opacity: .9; /*CHANGED THIS from 0*/
+  opacity: 0; 
 }
 
 .tm-gallery-item figure h2 {
@@ -302,7 +301,7 @@ figure.effect-bubba img {
   transition: opacity 0.35s;
 }
 
-figure.effect-bubba:hover img { opacity: 0.8; }
+figure.effect-bubba:hover img { opacity: 0.1; } /*CHANGED THIS from 0.8*/
 
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
