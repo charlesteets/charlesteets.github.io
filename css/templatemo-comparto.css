@@ -18,6 +18,9 @@ animation: bounceIn 1.9s ease-in-out;
   }
 }
 
+a.tm-nav-link:hover {    /* nav bar items move to center on hover */
+    padding-right: 100%;
+}
 
 /* main color palette */
 
@@ -33,6 +36,7 @@ a { color: #55e383;
 .tm-nav-link:hover .tm-btn{
   color: #d1ffc9;
   background-color: #07b089;
+  white-space: nowrap;
 }
 
 .tm-bg-color-1 { background-color: #007b7e; }
