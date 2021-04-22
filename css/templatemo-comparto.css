@@ -36,6 +36,9 @@ a { color: #55e383;
 .tm-nav-link:hover .tm-btn{
   color: #d1ffc9;
   background-color: #07b089;
+}
+
+.tm-nav-link {
   white-space: nowrap;
 }
 
